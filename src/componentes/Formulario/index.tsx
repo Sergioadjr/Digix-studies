@@ -47,14 +47,15 @@ class Formulario extends React.Component<{
                     <label htmlFor="tempo">O tempo da tarefa será de:</label>
                     <input
                         type="time"
+                        step='1'
                         value={this.state.tempo}
                         onChange={evento => this.setState({
                             ...this.state, tempo: evento.target.value
                         })}
                         name="tempo"
                         id="tempo"
-                        min="0:00:00"
-                        max="1:30:00"
+                        min="00:00:00"
+                        max="02:30:00"
                         required /></div>
                 <Botao type="submit">
                     Adicionar
