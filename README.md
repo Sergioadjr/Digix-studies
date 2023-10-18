@@ -31,9 +31,9 @@ git clone https://github.com/Sergioadjr/Digix-studies.git
 ```
 
 ### Execute o aplicativo:
+Navegue até o diretório onde clonou o projeto e execute:
 
-Abra [http://localhost:3000](http://localhost:3000) para visualizar no seu browser.
-Clone o repositório:
 ```bash
 npm start
 ```
+Abra [http://localhost:3000](http://localhost:3000) para visualizar no seu browser.
